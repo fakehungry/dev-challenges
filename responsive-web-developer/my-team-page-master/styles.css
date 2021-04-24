@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  padding: 0 15rem;
+  margin: 80px 0;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 2.25em;
+  flex-basis: 50%;
+  padding: 0.5em;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.text-box {
+  flex-basis: 50%;
+  padding: 0.5em;
+}
+
+.text-box > p {
+  padding-right: 2em;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.img-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 15em;
+  height: 950px;
+  margin-bottom: 80px;
+}
+
+.item {
+  flex-basis: 30%;
+  position: relative;
+}
+
+.item:nth-child(3n-1) {
+  align-self: flex-end;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 10px;
+}
+
+.position {
+  font-family: "PT Serif";
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  position: absolute;
+  right: 30px;
+  top: 0;
+  transform: rotate(90deg) translate(100%, 0);
+  transform-origin: right top;
+}
+
+@media (max-width: 376px) {
+  header {
+    padding: 0 0.1em;
+    margin-top: 20px;
+  }
+
+  h1 {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+
+  .text-box {
+    margin: 0 12px;
+    flex-basis: 100%;
+  }
+
+  .text-box > p {
+    font-size: 14px;
+    line-height: 21px;
+    padding-right: 0.5em;
+  }
+
+  .img-box {
+    padding: 0 1.4em;
+    height: 870px;
+    margin-bottom: 40px;
+  }
+
+  .item {
+    flex-basis: 50%;
+  }
+
+  .item:nth-child(3n-1) {
+    align-self: flex-start;
+  }
+
+  .item:nth-child(2n) {
+    align-self: flex-end;
+  }
+
+  .name {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 5px;
+  }
+
+  .position {
+    font-family: "PT Serif";
+    font-size: 10px;
+    line-height: 13.25px;
+    right: 18px;
+  }
+}
