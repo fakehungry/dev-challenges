@@ -31,7 +31,7 @@
 
 ## Overview
 
-![screenshot](./ss.jpg)
+![screenshot](/ss.jpg)
 
 Hi! My name is Chaikit Ruangsakulpat. Now, I'm learning web development. I've learned many courses online, something like Codecademy, Coursera, etc. However, just learn and don't do anything make you forget everything you learnt. Someone said "Practice make perfect". I don't want to be a perfect guy, but I do really want how to build amazing web with my own.
 
