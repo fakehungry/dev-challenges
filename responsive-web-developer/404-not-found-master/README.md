@@ -31,7 +31,7 @@
 
 ## Overview
 
-![screenshot](ss.jpg)
+![screenshot](./ss.jpg)
 
 Hi! My name is Chaikit Ruangsakulpat. Now, I'm learning web development. I've learned many courses online, something like Codecademy, Coursera, etc. However, just learn and don't do anything make you forget everything you learnt. Someone said "Practice make perfect". I don't want to be a perfect guy, but I do really want how to build amazing web with my own.
 
@@ -54,5 +54,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Emaol [chaikitr@gmail.com](chaikitr@gmail.com)
+- Email [chaikitr@gmail.com](chaikitr@gmail.com)
 - GitHub [fakehungry](https://github.com/fakehungry)
